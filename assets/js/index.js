@@ -3,10 +3,10 @@ function showPhoto(id, title_text) {
 }
 
 function showModal(id, title_text) {
-    const modal = document.querySelector(".modal");
-    const backdrop = document.querySelector(".backdrop");
-    const title = document.querySelector(".modal .title");
-    const image = document.querySelector(".modal .image img");
+    var modal = document.querySelector(".modal");
+    var backdrop = document.querySelector(".backdrop");
+    var title = document.querySelector(".modal .title");
+    var image = document.querySelector(".modal .image img");
     modal.style.display = 'block';
     backdrop.style.display = 'block';
     title.innerText = title_text;
@@ -17,8 +17,8 @@ function showModal(id, title_text) {
 function generateSRCSET(id) {
     var srcset_string = "";
     var resolutions = ['320', '640', '750', '828', '1440', '1536', '2048', '3840'];
-    for(const i in resolutions) {
-        const w = resolutions[i];
+    for(var i in resolutions) {
+        var w = resolutions[i];
         srcset_string += "assets/images/photo-" + id + "@" + w + "w.jpg " + w + "w";
 
         console.log(i + ' ' + (resolutions.length - 1));
@@ -32,15 +32,15 @@ function generateSRCSET(id) {
 }
 
 function hideModal() {
-    const modal = document.querySelector(".modal");
-    const backdrop = document.querySelector(".backdrop");
+    var modal = document.querySelector(".modal");
+    var backdrop = document.querySelector(".backdrop");
     modal.style.display = 'none';
     backdrop.style.display = 'none';
 }
 
 document.addEventListener('DOMContentLoaded', function(){
-    const close_button = document.querySelector(".close");
-    const backdrop = document.querySelector(".backdrop");
+    var close_button = document.querySelector(".close");
+    var backdrop = document.querySelector(".backdrop");
 
     close_button.addEventListener("click",function(e){
         hideModal();
