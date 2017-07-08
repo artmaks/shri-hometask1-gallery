@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <title>Мобилизация: задание номер 1 (Галерея)</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="assets/progressive-image/css/progressive-image.min.css">
 </head>
 <body>
     <section class="content">
         <header>
             <div class="header">
-                <h1>Придумать длинный, чтобы была необходимость уменьшать на мобилках</h1>
+                <h1>10+ AWESOME PHOTOS OF CATS AND DOGS</h1>
             </div>
             <div class="description">
                 <h4>Считается, что коты — пушистые и самодовольные лентяи, а собаки — неуемные весельчаки.
@@ -19,79 +21,104 @@
         </header>
         <section class="gallery">
             <div class="item" onclick="showPhoto(1, 'Котик')">
-                <img src="assets/images/photo-1.jpg">
+                <a href="assets/images/photo-1.jpg" class="progressive replace">
+                    <img src="assets/images/photo-1-tiny.jpg" class="preview" alt="image" />
+                </a>
                 <div class="info">
                     <span>Котик</span>
                 </div>
             </div>
             <div class="item" onclick="showPhoto(3, 'Котик')">
-                <img src="assets/images/photo-3.jpg">
+                <a href="assets/images/photo-3.jpg" class="progressive replace">
+                    <img src="assets/images/photo-3-tiny.jpg" class="preview" alt="image" />
+                </a>
                 <div class="info">
                     <span>Котик</span>
                 </div>
             </div>
             <div class="item" onclick="showPhoto(4, 'Котик')">
-                <img src="assets/images/photo-4.jpg">
+                <a href="assets/images/photo-4.jpg" class="progressive replace">
+                    <img src="assets/images/photo-4-tiny.jpg" class="preview" alt="image" />
+                </a>
                 <div class="info">
                     <span>Котик</span>
                 </div>
             </div>
             <div class="item" onclick="showPhoto(2, 'Котик')">
-                <img src="assets/images/photo-2.jpg">
+                <a href="assets/images/photo-2.jpg" class="progressive replace">
+                    <img src="assets/images/photo-2-tiny.jpg" class="preview" alt="image" />
+                </a>
                 <div class="info">
                     <span>Котик</span>
                 </div>
             </div>
             <div class="item" onclick="showPhoto(5, 'Котик')">
-                <img src="assets/images/photo-5.jpg">
+                <a href="assets/images/photo-5.jpg" class="progressive replace">
+                    <img src="assets/images/photo-5-tiny.jpg" class="preview" alt="image" />
+                </a>
                 <div class="info">
                     <span>Котик</span>
                 </div>
             </div>
             <div class="item" onclick="showPhoto(6, 'Котик')">
-                <img src="assets/images/photo-6.jpg">
+                <a href="assets/images/photo-6.jpg" class="progressive replace">
+                    <img src="assets/images/photo-6-tiny.jpg" class="preview" alt="image" />
+                </a>
                 <div class="info">
                     <span>Котик</span>
                 </div>
             </div>
             <div class="item" onclick="showPhoto(7, 'Котик')">
-                <img src="assets/images/photo-7.jpg">
+                <a href="assets/images/photo-7.jpg" class="progressive replace">
+                    <img src="assets/images/photo-7-tiny.jpg" class="preview" alt="image" />
+                </a>
                 <div class="info">
                     <span>Котик</span>
                 </div>
             </div>
             <div class="item" onclick="showPhoto(8, 'Котик')">
-                <img src="assets/images/photo-8.jpg">
+                <a href="assets/images/photo-8.jpg" class="progressive replace">
+                    <img src="assets/images/photo-8-tiny.jpg" class="preview" alt="image" />
+                </a>
                 <div class="info">
                     <span>Котик</span>
                 </div>
             </div>
             <div class="item" onclick="showPhoto(9, 'Котик')">
-                <img src="assets/images/photo-9.jpg">
+                <a href="assets/images/photo-9.jpg" class="progressive replace">
+                    <img src="assets/images/photo-9-tiny.jpg" class="preview" alt="image" />
+                </a>
                 <div class="info">
                     <span>Котик</span>
                 </div>
             </div>
             <div class="item" onclick="showPhoto(10, 'Котик')">
-                <img src="assets/images/photo-10.jpg">
+                <a href="assets/images/photo-10.jpg" class="progressive replace">
+                    <img src="assets/images/photo-10-tiny.jpg" class="preview" alt="image" />
+                </a>
                 <div class="info">
                     <span>Котик</span>
                 </div>
             </div>
             <div class="item" onclick="showPhoto(1, 'Котик')">
-                <img src="assets/images/photo-1.jpg">
+                <a href="assets/images/photo-1.jpg" class="progressive replace">
+                    <img src="assets/images/photo-1-tiny.jpg" class="preview" alt="image" />
+                </a>
                 <div class="info">
                     <span>Котик</span>
                 </div>
             </div>
             <div class="item" onclick="showPhoto(3, 'Котик')">
-                <img src="assets/images/photo-3.jpg">
+                <a href="assets/images/photo-3.jpg" class="progressive replace">
+                    <img src="assets/images/photo-3-tiny.jpg" class="preview" alt="image" />
+                </a>
                 <div class="info">
                     <span>Котик</span>
                 </div>
             </div>
         </section>
     </section>
+    <div class="divider"></div>
     <footer>
         <span>
             © Artem Maksimov 2017
@@ -109,6 +136,7 @@
     </div>
     <div class="backdrop"></div>
 
+    <script src="assets/progressive-image/js/progressive-image.min.js"></script>
     <script type="text/javascript" src="assets/js/index.js" ></script>
 </body>
 </html>
