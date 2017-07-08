@@ -145,6 +145,12 @@ footer span {
     object-fit: cover;
 }
 
+.item.last-item {
+    flex-grow: 100;
+    visibility: hidden;
+    height: 0px;
+}
+
 /* modal window */
 
 .modal {
