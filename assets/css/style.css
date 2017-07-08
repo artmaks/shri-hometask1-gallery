@@ -231,14 +231,14 @@ footer span {
 
     header h1 {
         font-size: 1.3rem;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     header h4 {
         font-size: 1rem;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .gallery .item {
@@ -286,10 +286,14 @@ footer span {
 
     header h1 {
         font-size: 2.2rem;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     header h4 {
         font-size: 1.1rem;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .modal .close {
